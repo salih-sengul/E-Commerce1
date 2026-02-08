@@ -29,8 +29,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex items-center justify-center">
-        <div className="mx-10 flex max-w-[1050px] flex-col gap-20 py-20 lg:flex-row lg:gap-8">
+      <div className="flex w-full items-center justify-center lg:justify-center">
+        <div className="mx-10 flex max-w-[1050px] flex-col gap-8 py-20 lg:w-full lg:flex-row lg:justify-between">
           <div className="flex flex-col gap-5">
             <div className="h5">Company Info</div>
             <div className="link text-second-text-color flex flex-col gap-2.5">
