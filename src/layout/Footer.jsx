@@ -79,8 +79,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-primary-foreground flex w-full items-center justify-center lg:justify-center">
-        <div className="mx-10 flex max-w-[1050px] flex-col items-center gap-20 py-20">
+      <div className="bg-primary-foreground flex w-full items-center justify-center">
+        <div className="mx-10 flex max-w-[1050px] gap-20 py-20 lg:w-full lg:justify-start">
           <div className="h6 text-second-text-color">
             Made With Love By Finland All Right Reserved
           </div>
