@@ -1,17 +1,21 @@
 import React from "react";
-import {
-  Route,
-  Router,
-  Switch,
-} from "react-router-dom/cjs/react-router-dom.min";
 import HomePage from "../pages/HomePage";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import ShopPage from "@/pages/ShopPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/shop",
+    element: <ShopPage />,
+  },
+]);
 
 const PageContent = () => {
-  return (
-    <Switch>
-      <Route exact path="/" component={HomePage} />
-    </Switch>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default PageContent;
