@@ -1,7 +1,7 @@
 import BestSellerProduct from "@/components/BestSellerProduct";
 import PaginationShop from "@/components/PaginationShop";
 import SelectFilter from "@/components/SelectFilter";
-import Categories from "@/components/shop/categories";
+import Categories from "@/components/shop/Categories";
 import Companies from "@/components/shop/Companies";
 import { Button } from "@/components/ui/button";
 import { LayoutGrid, Rows4 } from "lucide-react";
