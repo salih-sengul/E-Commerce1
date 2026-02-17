@@ -8,19 +8,27 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
+import { Link } from "react-router";
 
-const NavBar = () => {
+const NavBar = ({ className, shopMenu, bigMenu }) => {
   return (
     <NavigationMenu viewport={false}>
-      <NavigationMenuList>
+      <NavigationMenuList className={className}>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <NavigationMenuItem className={bigMenu}>
+          <NavigationMenuLink asChild>
+            <Link to="/shop">Shop</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem className={shopMenu}>
           <NavigationMenuTrigger className="link text-second-text-color">
-            Shop
+            <NavigationMenuLink asChild>
+              <Link to="/shop">Shop</Link>
+            </NavigationMenuLink>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="text-second-text-color link flex gap-10">

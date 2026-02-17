@@ -2,7 +2,6 @@ import BestSeller from "@/components/BestSeller";
 import { Collection } from "@/components/Collection";
 import EditorsPick from "@/components/EditorsPick";
 import { FeaturedProducts } from "@/components/FeaturedProducts";
-import Gemini from "@/components/gemini";
 import Slider from "@/components/Slider";
 
 import Slider2 from "@/components/Slider2";

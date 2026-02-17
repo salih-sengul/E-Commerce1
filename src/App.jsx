@@ -1,12 +1,13 @@
+import { BreadCrumb } from "./components/BreadCrumb";
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
-import PageContent from "./layout/PageContent";
+import { Outlet } from "react-router";
 
 function App() {
   return (
     <>
       <Header />
-      <PageContent />
+      <Outlet />
       <Footer />
     </>
   );
