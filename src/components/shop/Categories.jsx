@@ -1,5 +1,5 @@
 import React from "react";
-import CategoriesCard from "./categoriesCard";
+import CategoriesCard from "./CategoriesCard";
 
 const Categories = () => {
   const dummyData = [1, 2, 3, 4, 5];
