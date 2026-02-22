@@ -1,6 +1,6 @@
 import BestSeller from "@/components/BestSeller";
 import ProductCard from "@/components/product/ProductCard";
-import ProductDescription from "@/components/Product/ProductDescription";
+import ProductDescription from "@/components/product/ProductDescription";
 import { SlideThumbnail } from "@/components/product/SlideThumbnail";
 import Companies from "@/components/shop/Companies";
 import React from "react";
