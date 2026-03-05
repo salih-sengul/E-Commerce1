@@ -2,7 +2,7 @@ import React from "react";
 
 const BestSellerProduct = ({ imgLink }) => {
   return (
-    <div className="flex h-[615px] flex-col items-center lg:max-w-[240px]">
+    <div className="flex h-[615px] flex-col items-center bg-white lg:max-w-[240px]">
       <img src={imgLink} alt="" className="h-[427px] object-cover" />
       <div className="flex flex-col items-center gap-3 p-7">
         <div className="h5 text-text-color">Graphic Design</div>
