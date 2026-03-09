@@ -97,22 +97,22 @@ const NavBar = ({ className, shopMenu, bigMenu }) => {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
-            <a href="/blog">Blog</a>
+            <Link to="/blog">Blog</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
-            <a href="/pages">Pages</a>
+            <Link to="/pages">Pages</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
