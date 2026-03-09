@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 import "./index.css";
 import ProductPage from "./pages/ProductPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "shop/product",
         element: <ProductPage />,
+      },
+      {
+        path: "contact",
+        element: <ContactPage />,
       },
     ],
   },
